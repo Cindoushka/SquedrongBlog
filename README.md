@@ -11,7 +11,7 @@ Une petite description du projet
 
 ### Les collaborateurs du projet:
 
-@Furendori & @Okbac
+<a href="https://github.com/Furendori" alt="lien vers le github de Julian">@Furendori</a> & <a href="https://github.com/okbac" alt="lien vers le github de Julian"> @Okbac</a>
 
 
 
