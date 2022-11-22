@@ -25,11 +25,12 @@ nav a  {
     color: gray;
     text-decoration: none;
     font-size: 10px;
-    font-weight:bolder;
+    font-weight:400;
 }
 
 nav a:hover {
     color: #6957B2;
+    font-weight: 500;
 }
 
 .h1accueil {
@@ -38,10 +39,10 @@ nav a:hover {
     font-weight: 100;
 }
 
-h2 {
+.lorem {
     font-size: xx-large;
-    font-weight:800;
-    margin-top: -10px
+    margin-top: -10px;
+    font-weight: bold;
 }
 
 .pentete {
@@ -55,10 +56,15 @@ h2 {
     text-decoration: none;
     color: white;
     font-size: 10px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     width: 170px;
     text-align: center;
+    border: 1px #47ACDF solid;
+}
+
+.btntwitter3{
+    display: none;
 }
 
 .btnlinkedin {
@@ -66,10 +72,15 @@ h2 {
     text-decoration: none;
     color: white;
     font-size: 10px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     width: 170px;
     text-align: center;
+    border: 1px #1275B1 solid;
+}
+
+.btnlinkedin3{
+    display:none;
 }
 
 .btnmedium {
@@ -77,10 +88,15 @@ h2 {
     text-decoration: none;
     color: white;
     font-size: 10px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     width: 170px; 
     text-align: center;
+    border: 1px black solid;
+}
+
+.btnmedium3 {
+    display: none;
 }
 
 a img {
@@ -114,9 +130,60 @@ a img {
     gap: 100px;
     align-items: center;
     margin-top: 30px;
+    font-weight: 200;
 }
 
-h1 {
+.apropos {
     color:#D05270;
-    font-weight: bold;
+    font-weight: 800;
 }
+
+.btntwitter:hover {
+    background-color: white;
+    color: #47ACDF;
+    border: 1px #47ACDF solid;
+
+}
+
+.btntwitter:hover .btntwitter2 {
+    display:none; 
+}
+
+.btntwitter:hover .btntwitter3{
+    display:inline-block;
+}
+
+
+.btnlinkedin:hover {
+    background-color: white;
+    color: #1275B1;
+    border: 1px #1275B1 solid;
+
+}
+
+.btnlinkedin:hover .btnlinkedin2 {
+    display:none; 
+}
+
+.btnlinkedin:hover .btnlinkedin3{
+    display:inline-block;
+}
+
+
+.btnmedium:hover {
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+
+}
+
+.btnmedium:hover .btnmedium2 {
+    display:none; 
+}
+
+.btnmedium:hover .btnmedium3{
+    display:inline-block;
+}
+
+
+
