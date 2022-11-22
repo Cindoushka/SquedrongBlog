@@ -24,10 +24,11 @@
     font-weight: bold;
   }
 
-  .p2{
+  .lien{
     font-size: large;
     font-weight: bold;
     color: #D05270;
+    text-decoration: none;
   }
 
   .p3{
