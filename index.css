@@ -56,10 +56,5 @@
   }
 
   .p4:hover{
-    content: "";
     width: 30%;
-    height: 1px;
-    bottom: 0;
-    left: 0%;
-    border-bottom: 1px solid #D05270;
 }
