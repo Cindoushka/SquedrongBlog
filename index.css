@@ -31,6 +31,10 @@
     text-decoration: none;
   }
 
+  .lien:hover {
+    font-size:16px;
+  }
+
   .p3{
     font-size: 11px;
     font-weight:200;
@@ -53,4 +57,8 @@
       bottom: 0;
       left: 0%;
       border-bottom: 1px solid #D05270;
+  }
+
+  .p4:hover {
+    width:35%;
   }
