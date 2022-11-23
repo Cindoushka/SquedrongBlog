@@ -17,6 +17,7 @@
   .darkMac {
     grid-area: b;
     width: 100%;
+    height: 423px;
   }
 
   .p1{
@@ -26,14 +27,14 @@
 
   .lien{
     font-size: large;
-    font-weight: 400;
+    font-weight: bolder;
     color: #D05270;
     text-decoration: none;
   }
 
   .p3{
     font-size: small;
-    font-weight: 400;
+    font-weight: bold;
   }
 
   .p4 {
@@ -43,6 +44,7 @@
     display: inline-block;
     padding-bottom: 2px;
     position: relative;
+    text-decoration: none;
   }
   .p4:before{
       content: "";
@@ -52,4 +54,8 @@
       bottom: 0;
       left: 0%;
       border-bottom: 1px solid #D05270;
+  }
+
+  footer{
+    padding: 20px;
   }
