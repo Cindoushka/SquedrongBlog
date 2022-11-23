@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@200&display=swap" rel="stylesheet">
@@ -24,35 +25,127 @@
         </nav>
     </header>
 
-    <div id="conteneurentete">
-        <article class="texte">
-    <h1>À propos de l'auteur :</h1>
+<h1>Contact</h1>
 
-    <p class="pentete">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id. In neque lorem, vehicula ut ornare vel, molestie eget libero. Vestibulum condimentum eu urna et tempor. Sed nec ligula ipsum.</p>
 
-    <figure id="conteneurbouttons">
 
-        <a href="http://www.twitter.com" class="btntwitter">
-            <img src="Images/twitter.png" alt="logo twitter" title="Logo Twitter" class="btntwitter2">
-        TWITTER
-        </a>
 
-        <a href="http://www.linkedin.fr" class="btnlinkedin">
-            <img src="Images/linkedin-2.png" alt="logo linkedin" title="Logo Linkedin"  class="btnlinkedin2">
-        LINKEDIN
-        </a>
+<div class="formulaire">
+<form> <!--création du formulaire-->
+    
+    
+    <p>A propos de vous...</p> <!--Section des civilités et professions-->
+    <label for="nom" class="alignement">Votre nom: *</label>
+    <input type="text" name="nom" id="nom" placeholder="Dujardin" size="30" required class="hauteur"><br>
 
-        <a href="http://www.medium.fr"  class="btnmedium">
-             <img src="Images/medium-2.png" alt="logo medium" title="Logo Medium" class="btnmedium2">
-        MEDIUM
-        </a>
+    <label for="prenom" class="alignement">Votre prénom: *</label>
+    <input type="text" name="prenom" id="prenom" placeholder="Jean" size="30" required class="hauteur"><br>
 
-    </figure>
+    <label for="profession" class="alignement prof">Votre profession:</label>
+    <select name="profession" id="profession" class="hauteur" >
+        <option value="developpeur">Développeur</option>
+        <option value="webdesigner">Webdesigner</option>
+        <option value="uxdesigner">uxdesigner</option>
+        <option value="autre">Autre</option>
+        
+        
 
-    </article>
+    </select>
+    <br>
 
-    <img src="Images/illustration.png" alt="illustration du blog" title="Illustration du Blog" class="illustration">
+
+    <label for="mail" class="alignement">Votre adresse mail: *</label>
+    <input type="email" name="mail" id="mail" placeholder="jeandujardin@yahoo.fr" size="30" required class="hauteur"><br>
+
+   
+        <p class="new">Souhaitez-vous recevoir la newsletter? *</p><!--questionnaire-->
+        <div class="rond">
+        <label for="oui">Oui</label>
+        <input type="radio" name="radio" id="oui" value="oui" required>
+        <label for="non">Non</label>
+        <input type="radio" name="radio" id="non" value="non" required>
+    
+    </div>
+    
+        <p class="new">Quels sont vos thèmes préférés?</p>
+        
+        <div class="align">
+            <label for="mode">Mode</label><input type="checkbox" name="mode" id="mode" value="mode">
+            <label for="voyage">Voyage</label><input type="checkbox" name="voyage" id="voyage" value="voyage">
+            <label for="cinema">Cinéma</label><input type="checkbox" name="cinema" id="cinema" value="cinema">
+            <label for="tech">Technologie</label><input type="checkbox" name="tech" id="tech" value="tech">
+
+    </div>  
+
+    
+
+    <div class="remarque"><!--Création d'une zone de texte pour l'utilisateur-->
+    <label for="remarque">Vos remarques:</label>
+    <textarea name="remarque" id="remarque" rows="10">Entrez votre texte.</textarea>
+</div>
+
+
+<p class="rgpd">Conformément aux dispositions de la loi française n°78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, les internautes disposent d’un droit d’accès, 
+    de modification, de rectification et de suppression des données qui les concernent.
+     Vous pouvez exercer ce droit par le biais du formulaire de contact du site.</p><!--loi rgpd-->
+
+
+
+
+<div id="centre">
+    <div class="confirme">
+    
+    <input type="submit" value="Envoyer" class="boutonperso"><!--Création d'un bouton d'envoye du formulaire-->
+    </div>
+    
+
+    <div>ou</div>
+
+
+
+    
+    <div class="courier">
+        <a href="mailto:squedrong@gmail.com" title="Cliquez ici!">Envoyez-moi un e-mail !</a><!--boutton pour envoyer un email-->
+    </div>
+</div>
+    
+</form>
+</div>
+
+
+
+
+<div id="conteneurentete">
+    <article class="texte">
+<h2>À propos de l'auteur :</h2>
+
+<p class="pentete">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id. In neque lorem, vehicula ut ornare vel, molestie eget libero. Vestibulum condimentum eu urna et tempor. Sed nec ligula ipsum.</p>
+
+<div id="conteneurbouttons">
+
+    <a href="http://www.twitter.com" class="btntwitter">
+        <img src="Images/twitter.png" alt="logo twitter" title="Logo Twitter" class="btntwitter2">
+    TWITTER
+    </a>
+
+    <a href="http://www.linkedin.fr" class="btnlinkedin">
+        <img src="Images/linkedin-2.png" alt="logo linkedin" title="Logo Linkedin"  class="btnlinkedin2">
+    LINKEDIN
+    </a>
+
+    <a href="http://www.medium.fr"  class="btnmedium">
+         <img src="Images/medium-2.png" alt="logo medium" title="Logo Medium" class="btnmedium2">
+    MEDIUM
+    </a>
 
 </div>
+
+</article>
+
+<img src="Images/illustration.png" alt="illustration du blog" title="Illustration du Blog" class="illustration">
+
+</div>
+
+
 </body>
 </html>

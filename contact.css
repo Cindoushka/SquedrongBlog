@@ -1,0 +1,151 @@
+
+label
+{
+    align-items: center;
+    
+    }
+
+
+
+
+.courier a {
+    text-decoration: none;
+    color: white;
+    background-color: #3A0DA3;
+    padding: 10px 20px 10px 20px;
+    border-radius: 24px;
+
+}
+
+
+
+.courier a:hover
+{
+    background-color: #d05270;
+    text-decoration: none;
+}
+
+
+
+.align
+{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    align-items: center;
+}
+
+.confirme
+{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.rond
+{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    align-items: center; 
+}
+
+h1
+{
+    font-size: 36px;
+    font-family: 'abril fatface', sans-serif;
+
+}
+
+input {
+    margin: 5px;
+}
+
+form {
+margin-right: 20px;
+}
+
+#centre
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.boutonperso
+{
+    color: white;
+    background-color: #3A0DA3;
+    padding: 11px;
+    border: 0px;
+    margin: 0px;
+
+}
+
+
+.confirme :hover
+{
+    background-color: #d05270;
+}
+
+.formulaire
+{
+    border: 5px #d05270 solid;
+    border-radius: 24px;
+    margin-bottom: 100px;
+    padding: 20px;
+
+}
+
+
+textarea {
+    width: 100%;
+    border-radius: 24px;
+    border: 1px gray solid;
+    padding: 10px;
+}
+
+input, select {
+    border-radius: 24px;
+    width: 220px;
+    border: 1px gray solid;
+}
+
+.rgpd {
+    font-size: 12px;
+}
+
+.hauteur
+{
+    height: 40px;
+}
+
+.new
+{
+    margin-bottom: 0;
+}
+
+.remarque
+{
+    margin-top: 20px;
+}
+
+.alignement
+{
+    width: 180px;
+    display: inline-block;
+    
+}
+
+
+.prof
+{
+    margin-left: 5px;
+}
+
+#remarque
+{
+    margin-top: 10px;
+}
