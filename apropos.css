@@ -32,7 +32,8 @@
 }
 
 .texteapropos {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    font-size:14px;
 }
 
 .line {
@@ -57,7 +58,9 @@
 }
 
 .textevideo {
-    flex: 2
+    flex: 2;
+    font-size:14px;
+
 }
 
 #conteneurvideo p {
