@@ -14,14 +14,15 @@
     text-align: justify;
     font-weight: 400;
     margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 15px;
+    width: 98%;
 
 }
 
 h2, h3 {
     color: #3A0DA3;
     font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
+    font-weight:800;
 }
 h2 {
     font-size: 22px;
