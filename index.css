@@ -21,24 +21,24 @@
 
   .p1{
     font-size: small;
-    font-weight: bold;
+    font-weight: 400;
   }
 
   .lien{
     font-size: large;
-    font-weight: bold;
+    font-weight: 400;
     color: #D05270;
     text-decoration: none;
   }
 
   .p3{
     font-size: small;
-    font-weight: bold;
+    font-weight: 400;
   }
 
   .p4 {
     font-size: small;
-    font-weight: bold;
+    font-weight: 400;
     color: #D05270;
     display: inline-block;
     padding-bottom: 2px;
