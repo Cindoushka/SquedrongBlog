@@ -50,11 +50,11 @@ label
     align-items: center; 
 }
 
-h1
+.titrecontact
 {
     font-size: 36px;
-    font-family: 'abril fatface', sans-serif;
-
+    font-family: 'Abril Fatface', sans-serif;
+    color:#d05270
 }
 
 input {

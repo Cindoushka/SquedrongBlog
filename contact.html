@@ -22,22 +22,22 @@
 
         <nav id="conteneurnav" class="nav">
             <a href="index.html" class="nav1">BLOG</a>
-            <a href="" class="nav2">CV</a>
+            <a href="cv.html" class="nav2">CV</a>
             <a href="apropos.html" class="nav3">A PROPOS</a>
             <a href="contact.html"  class="nav4">CONTACT</a>
         </nav>
     </header>
 
-<h1>Contact</h1>
+<h1 class="titrecontact">Contact</h1>
 
 
 
-
+<!--création du formulaire-->
 <div class="formulaire">
-<form> <!--création du formulaire-->
+<form> 
     
-    
-    <p>A propos de vous...</p> <!--Section des civilités et professions-->
+    <!--Section des civilités et professions-->
+    <p>A propos de vous...</p> 
     <label for="nom" class="alignement">Votre nom: *</label>
     <input type="text" name="nom" id="nom" placeholder="Dujardin" size="30" required class="hauteur"><br>
 
@@ -60,8 +60,8 @@
     <label for="mail" class="alignement">Votre adresse mail: *</label>
     <input type="email" name="mail" id="mail" placeholder="jeandujardin@yahoo.fr" size="30" required class="hauteur"><br>
 
-   
-        <p class="new">Souhaitez-vous recevoir la newsletter? *</p><!--questionnaire-->
+   <!--questionnaire-->
+        <p class="new">Souhaitez-vous recevoir la newsletter? *</p>
         <div class="rond">
         <label for="oui">Oui</label>
         <input type="radio" name="radio" id="oui" value="oui" required>
@@ -81,16 +81,16 @@
     </div>  
 
     
-
-    <div class="remarque"><!--Création d'une zone de texte pour l'utilisateur-->
+<!--Création d'une zone de texte pour l'utilisateur-->
+    <div class="remarque">
     <label for="remarque">Vos remarques:</label>
-    <textarea name="remarque" id="remarque" rows="10">Entrez votre texte.</textarea>
+    <textarea name="remarque" id="remarque" rows="10" placeholder="Entrez votre texte ici"></textarea>
 </div>
 
-
+<!--loi rgpd-->
 <p class="rgpd">Conformément aux dispositions de la loi française n°78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, les internautes disposent d’un droit d’accès, 
     de modification, de rectification et de suppression des données qui les concernent.
-     Vous pouvez exercer ce droit par le biais du formulaire de contact du site.</p><!--loi rgpd-->
+     Vous pouvez exercer ce droit par le biais du formulaire de contact du site.</p>
 
 
 
@@ -120,11 +120,11 @@
 
 <div id="conteneurentete">
     <article class="texte">
-<h2 class="apropos">À propos de l'auteur :</h2>
+        <h2 class="apropos">À propos de l'auteur :</h2>
 
-<p class="pentete">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id. In neque lorem, vehicula ut ornare vel, molestie eget libero. Vestibulum condimentum eu urna et tempor. Sed nec ligula ipsum.</p>
+        <p class="pentete">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id. In neque lorem, vehicula ut ornare vel, molestie eget libero. Vestibulum condimentum eu urna et tempor. Sed nec ligula ipsum.</p>
 
-<div id="conteneurbouttons">
+    <div id="conteneurbouttons">
 
         <a href="http://www.twitter.com" class="btntwitter">
             <img src="Images/twitter.png" alt="logo twitter" title="Logo Twitter" class="btntwitter2">
@@ -144,14 +144,18 @@
         MEDIUM
         </a>
 
-</div>
-
-</article>
+    </div>
+    </article>
 
 <img src="Images/illustration.png" alt="illustration du blog" title="Illustration du Blog" class="illustration">
 
 </div>
 
+    <!-- lien pour remonter en haut  -->
+
+    <div id="footer">
+        <a href="#" class="btn btn-default"><span class="fleche">↑</span></a>
+    </div>
 
 </body>
 </html>
