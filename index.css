@@ -1,0 +1,63 @@
+#conteneurbody {
+    display: grid;
+    grid-template-areas: "a b"
+                         "a b"
+                         "a b";
+                         grid-template-columns: 1fr 1fr;
+                         gap: 20px;
+                         margin-top: 50px;
+  }
+
+  .pinkMac{
+    grid-area: a;
+    width: 100%;
+  }
+
+  .darkMac {
+    grid-area: b;
+    width: 100%;
+  }
+
+  .p1{
+    font-size: 9px;
+    font-weight: 600;
+  }
+
+  .lien{
+    font-size: 15px;
+    font-weight: 800;
+    color: #D05270;
+    text-decoration: none;
+  }
+
+  .lien:hover {
+    font-size:16px;
+  }
+
+  .p3{
+    font-size: 11px;
+    font-weight:200;
+}
+
+  .p4 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #D05270;
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none;
+  }
+  .p4:before{
+      content: "";
+      position: absolute;
+      width: 75%;
+      height: 1px;
+      bottom: 0;
+      left: 0%;
+      border-bottom: 1px solid #D05270;
+  }
+
+  .p4:hover {
+    width:35%;
+  }

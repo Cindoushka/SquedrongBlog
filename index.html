@@ -1,60 +1,189 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Squedrong Blog - Accueil</title>
 </head>
+
 <body>
+
+    <!-- header avec logo Squedrong et navigation  -->
 
     <header id="conteneurheader">
         <img src="Images/logo.png" alt="logo Squedrong" title="logo Squedrong" class="logo">
 
         <nav id="conteneurnav" class="nav">
             <a href="index.html" class="nav1">BLOG</a>
-            <a href="" class="nav2">CV</a>
+            <a href="cv.html" class="nav2">CV</a>
             <a href="apropos.html" class="nav3">A PROPOS</a>
-            <a href="contact.html"  class="nav4">CONTACT</a>
+            <a href="contact.html" class="nav4">CONTACT</a>
         </nav>
     </header>
 
+    <!-- en-tête avec presentation, illustration et boutons réseaux  -->
+
     <div id="conteneurentete">
         <article class="texte">
-    <h1 class="h1accueil">Bienvenue sur le blog!</h1>
+            <h1 class="h1accueil">Squedrong's blog </h1>
 
-    <h2>Lorem ipsum</h2>
+            <h2 class="lorem">Webdesigner</h2>
 
-    <p class="pentete">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id. In neque lorem, vehicula ut ornare vel, molestie eget libero. Vestibulum condimentum eu urna et tempor. Sed nec ligula ipsum.</p>
+            <p class="pentete">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis
+                libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id. In neque
+                lorem, vehicula ut ornare vel, molestie eget libero. Vestibulum condimentum eu urna et tempor. Sed nec
+                ligula ipsum.</p>
 
-    <figure id="conteneurbouttons">
+            <div id="conteneurbouttons">
 
-        <a href="http://www.twitter.com" class="btntwitter">
-            <img src="Images/twitter.png" alt="logo twitter" title="Logo Twitter" class="btntwitter2">
-        TWITTER
-        </a>
+                <a href="http://www.twitter.com" class="btntwitter">
+                    <img src="Images/twitter.png" alt="logo twitter blanc" title="Logo Twitter blanc"
+                        class="btntwitter2">
+                    <img src="Images/twitter-2.png" alt="logo twitter bleu" title="Logo Twitter bleu"
+                        class="btntwitter3">
 
-        <a href="http://www.linkedin.fr" class="btnlinkedin">
-            <img src="Images/linkedin-2.png" alt="logo linkedin" title="Logo Linkedin"  class="btnlinkedin2">
-        LINKEDIN
-        </a>
+                    TWITTER
+                </a>
 
-        <a href="http://www.medium.fr"  class="btnmedium">
-             <img src="Images/medium-2.png" alt="logo medium" title="Logo Medium" class="btnmedium2">
-        MEDIUM
-        </a>
+                <a href="http://www.linkedin.com" class="btnlinkedin">
+                    <img src="Images/linkedin-2.png" alt="logo linkedin blanc" title="Logo Linkedin blanc"
+                        class="btnlinkedin2">
+                    <img src="Images/linkedin.png" alt="logo linkedin bleu" title="Logo Linkedin bleu"
+                        class="btnlinkedin3">
+                    LINKEDIN
+                </a>
 
-    </figure>
+                <a href="http://www.medium.fr" class="btnmedium">
+                    <img src="Images/medium-2.png" alt="logo medium blanc" title="Logo Medium blanc" class="btnmedium2">
+                    <img src="Images/medium.png" alt="logo medium noir" title="Logo Medium noir" class="btnmedium3">
+                    MEDIUM
+                </a>
 
-    </article>
+            </div>
 
-    <img src="Images/illustration.png" alt="illustration du blog" title="Illustration du Blog" class="illustration">
+        </article>
 
-</div>
+        <div class="diventete">
+            <img src="Images/illustration.png" alt="illustration du blog" title="Illustration du Blog"
+                class="illustration">
+        </div>
+    </div>
+
+    <!-- mise en place des différents articles du blog dans une grid -->
+
+    <div id="conteneurbody">
+
+    <!-- articles de gauche  -->
+
+        <div>
+
+            <img class="pinkMac" src="Images/pinkmac2.png" alt="Mac dans le rose">
+            <p class="p1">5 SEPT 2022</p>
+            <a href="article.html" class="lien">Comment organiser l'espace de travail ?</a>
+            <p class="p3">Lorsque l'on travaille sur des  projets, on peut vite 
+                arriver à un espace de travail désordonné et le travail devient fastidieux... Ici je vous partage
+                les choses à faire et à ne pas faire pour optimiser votre espace.
+            </p>
+            <a href="article.html" class="p4">EN SAVOIR PLUS</a>
+
+        </div>
+
+    <!-- articles de droite  -->
+
+        <div>
+
+            <img class="darkMac" src="Images/maccolors.png" alt="Mac dans le noir">
+            <p class="p1">25 MARS 2022</p>
+            <a href="article2.html" class="lien">Comment optimiser l'utilisation du mac?</a>
+            <p class="p3">Découvrez mes conseils afin d'optimiser l'utilisation de votre mac, les bonnes pratiques 
+                auxquelles on ne pense pas forcément ainsi que les mauvaises pratiques à éviter à tout prix! Votre 
+                mac vous en remerciera!
+            </p>
+            <a href="article2.html" class="p4">EN SAVOIR PLUS</a>
+
+        </div>
+
+    <!-- articles de gauche  -->
+
+        <div>
+
+            <img class="pinkMac" src="Images/pinkmac2.png" alt="Mac dans le rose">
+            <p class="p1">5 SEPT 2022</p>
+            <a href="article.html" class="lien">Comment organiser l'espace de travail ?</a>
+            <p class="p3">Lorsque l'on travaille sur des  projets, on peut vite 
+                arriver à un espace de travail désordonné et le travail devient fastidieux... Ici je vous partage
+                les choses à faire et à ne pas faire pour optimiser votre espace.
+            </p>
+            <a href="article.html" class="p4">EN SAVOIR PLUS</a>
+
+        </div>
+
+    <!-- articles de droite  -->
+
+        <div>
+
+            <img class="darkMac" src="Images/maccolors.png" alt="Mac dans le noir">
+            <p class="p1">25 MARS 2022</p>
+            <a href="article2.html" class="lien">Comment optimiser l'utilisation du mac?</a>
+            <p class="p3">Découvrez mes conseils afin d'optimiser l'utilisation de votre mac, les bonnes pratiques 
+                auxquelles on ne pense pas forcément ainsi que les mauvaises pratiques à éviter à tout prix! Votre 
+                mac vous en remerciera!
+            </p>
+            <a href="article2.html" class="p4">EN SAVOIR PLUS</a>
+
+        </div>
+
+    <!-- articles de gauche  -->
+
+        <div>
+
+            <img class="pinkMac" src="Images/pinkmac2.png" alt="Mac dans le rose">
+            <p class="p1">5 SEPT 2022</p>
+            <a href="article.html" class="lien">Comment organiser l'espace de travail ?</a>
+            <p class="p3">Lorsque l'on travaille sur des  projets, on peut vite 
+                arriver à un espace de travail désordonné et le travail devient fastidieux... Ici je vous partage
+                les choses à faire et à ne pas faire pour optimiser votre espace.
+            </p>
+            <a href="article.html" class="p4">EN SAVOIR PLUS</a>
+
+        </div>
+
+    <!-- articles de droite  -->
+
+        <div>
+
+            <img class="darkMac" src="Images/maccolors.png" alt="Mac dans le noir">
+            <p class="p1">25 MARS 2022</p>
+            <a href="article2.html" class="lien">Comment optimiser l'utilisation du mac?</a>
+            <p class="p3">Découvrez mes conseils afin d'optimiser l'utilisation de votre mac, les bonnes pratiques 
+                auxquelles on ne pense pas forcément ainsi que les mauvaises pratiques à éviter à tout prix! Votre 
+                mac vous en remerciera!
+            </p>
+            <a href="article2.html" class="p4">EN SAVOIR PLUS</a>
+
+            <br><br><br><br>
+        </div>
+
+    </div>
+
+    <!-- lien pour remonter en haut  -->
+
+        <div id="footer">
+            <a href="#" class="btn btn-default"><span class="fleche">↑</span></a>
+        </div>
+
 </body>
+
 </html>

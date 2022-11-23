@@ -1,0 +1,69 @@
+#conteneurapropos {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.photoapropos {
+    width: 400px;
+    border-radius: 24px;
+    box-shadow: 2px 2px 6px gray;
+}
+
+.titreapropos {
+    font-family: 'Abril Fatface', sans-serif;
+    color: #D05270; 
+    text-align: center ;
+    font-size: 36px;
+    margin: 40px;
+}
+
+.soustitreapropos {
+    color: #3A0DA3;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#conteneurapropos p {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.texteapropos {
+    margin-bottom: 40px;
+    font-size:14px;
+}
+
+.line {
+    border: 1px #D05270 solid; 
+    width: 70%;
+    margin: -30px 0px 10px 15%;
+}
+
+#conteneurvideo {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.video {
+    flex: 2;
+    border-radius: 24px;
+    box-shadow: 2px 2px 6px gray;
+}
+
+.textevideo {
+    flex: 2;
+    font-size:14px;
+
+}
+
+#conteneurvideo p {
+    text-align: justify;
+    font-weight: 300;
+}
