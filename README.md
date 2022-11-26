@@ -6,11 +6,11 @@ Lors de la formation Dévéloppeur intégrateur d'applications web réalisée ch
 Une petite description du projet
 
 
-### Les collaborateurs du projet:
+## Les collaborateurs du projet:
 
 <a href="https://github.com/Furendori" alt="lien vers le github de Julian">@Furendori</a> & <a href="https://github.com/okbac" alt="lien vers le github de Julian"> @Okbac</a>
 
-### Nos objectifs: 
+## Nos objectifs: 
 
 <ul>
 <li>Reproduire les pages Blog et article à l'identique de la maquette</li>
@@ -18,7 +18,7 @@ Une petite description du projet
 <li>Utiliser Git pour ce premier projet en groupe</li>
 </ul>
 
-### Resources utlisées: 
+## Resources utlisées: 
 
 <ul>
 <li>Flaticons pour les icones</li>
@@ -27,7 +27,7 @@ Une petite description du projet
 <li>GoogleFonts pour les polices</li>
 </ul>
 
-### Les étapes que nous avons suivies:
+## Les étapes que nous avons suivies:
 
 <ul>
 <li>Nous avons commencé par établir les parties communes à toutes les pages ensemble, avec un css commun.</li>
@@ -37,6 +37,6 @@ Une petite description du projet
 </ul>
 
 
-### Pour ce projet, nous avons utilisé les langages suivants: 
+## Pour ce projet, nous avons utilisé les langages suivants: 
 
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> </p>
